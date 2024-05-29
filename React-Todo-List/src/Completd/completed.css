@@ -1,0 +1,12 @@
+.task-completed {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  flex-direction: column;
+}
+
+.task-completed div {
+  font-size: 18px;
+}

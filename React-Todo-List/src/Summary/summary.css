@@ -1,0 +1,54 @@
+.summary {
+  border-right: 2px solid #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  padding: 1%;
+}
+
+.summary div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 2%;
+  box-shadow: 0 4px 8px rgba(73, 72, 72, 0.2);
+}
+
+.summary div h4 {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+.summary div h3 {
+  font-size: 14px;
+}
+
+.tasks {
+  border: 7px solid rgb(7, 221, 7);
+}
+.completed {
+  border: 7px solid rgb(3, 3, 131);
+}
+
+.In-progress {
+  border: 7px solid rgb(245, 105, 12);
+}
+
+.tasks h4 {
+  color: rgb(7, 221, 7);
+}
+
+.completed h4 {
+  color: rgb(3, 3, 131);
+}
+
+.In-progress h4 {
+  color: rgb(245, 105, 12);
+}

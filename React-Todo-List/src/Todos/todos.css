@@ -1,0 +1,37 @@
+.todos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  border-right: 1px solid #dddddd;
+  height: auto;
+  padding: 1%;
+  overflow-y: scroll;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1%;
+}
+
+.todo button {
+  border: none;
+  padding: 1.5%;
+  font-size: 16px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.btn-drop {
+  background-color: rgb(245, 105, 12);
+  color: white;
+}
+
+.btn-complete {
+  background-color: rgb(3, 3, 131);
+  color: white;
+}
